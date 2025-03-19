@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Use EmailJS to send the email
-    emailjs.sendForm('service_qsdblav', 'template_ldk4x92', e.target, '5hlufhYIKalTpOTuhymwc') // Replace with actual Template ID and User ID
+    emailjs.sendForm('service_qsdblav', 'template_ldk4x92', e.target, 'IfhSO_cBGYB6pkmRW') // Replace with actual Template ID and User ID
       .then((result) => {
         console.log('Message Sent:', result.text);
         alert('Thanks for your message! I will get back to you soon.');
