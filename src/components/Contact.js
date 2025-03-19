@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import EmailJS library
+import emailjs from 'emailjs-com';
 import '../App.css';
 
 const Contact = () => {
@@ -20,13 +20,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Use EmailJS to send the email
-    emailjs.sendForm('service_qsdblav', 'template_ldk4x92', e.target, 'IfhSO_cBGYB6pkmRW') // Replace with actual Template ID and User ID
+    // Send form data to EmailJS
+    emailjs.sendForm('service_qsdblav', 'template_ldk4x92', e.target, 'IfhSO_cBGYB6pkmRW')
       .then((result) => {
         console.log('Message Sent:', result.text);
         alert('Thanks for your message! I will get back to you soon.');
 
-        // Reset the form data after submission
+        // Reset form data after submission
         setFormData({
           name: '',
           email: '',
