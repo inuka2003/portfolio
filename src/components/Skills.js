@@ -3,12 +3,12 @@ import '../App.css';
 
 const Skills = () => {
   const technicalSkills = [
-    { name: "HTML/CSS", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "React.js", level: 70 },
-    { name: "Java", level: 75 },
+    { name: "HTML/CSS", level: 80 },
+    { name: "JavaScript", level: 75 },
+    { name: "React.js", level: 60 },
+    { name: "Java", level: 85 },
     { name: "Python", level: 80 },
-    { name: "Git", level: 75 }
+    { name: "Git", level: 70 }
   ];
 
   const softSkills = [

@@ -41,7 +41,7 @@ const About = () => {
               <span className="detail-value">Galle, Sri Lanka</span>
             </div>
           </div>
-          <a href="https://drive.google.com/file/d/1vNoxmmztb10r8W8f-yOupWOT0-dLiBrf/view?usp=drive_link" className="btn primary-btn">Download Resume</a>
+          <a href="https://drive.google.com/file/d/1eg8OPWroPEA1AyH2mMBQOMN-yqRkDKOt/view?usp=drive_link" className="btn primary-btn">Download Resume</a>
         </div>
       </div>
     </section>
