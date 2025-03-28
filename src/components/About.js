@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import profileImage from '../images/inuka.jpg';
 
 const About = () => {
   return (
@@ -10,14 +11,17 @@ const About = () => {
       </div>
       <div className="about-content">
         <div className="about-image">
-          <div className="image-placeholder">
-            <span></span>
-          </div>
+          {/* Use the imported image */}
+          <img 
+            src={profileImage} 
+            alt="About Me" 
+            className="profile-image" 
+          />
         </div>
         <div className="about-text">
           <h3>Who am I?</h3>
-          <p>I am a software engineering undergraduate with a passionate of building full-stack applications.</p>
-          <p>Currently, I'm focusing on full-stack development, with particular interest in Java, Python, Springboot, React, PHP and MySql. I enjoy solving complex problems and turning ideas into reality through code.</p>
+          <p>I am a software engineering undergraduate with a passion for building full-stack applications.</p>
+          <p>Currently, I'm focusing on full-stack development, with particular interest in Java, Python, Springboot, React, PHP, and MySQL. I enjoy solving complex problems and turning ideas into reality through code.</p>
           <div className="about-details">
             <div className="detail-item">
               <span className="detail-label">Name:</span>
@@ -30,10 +34,9 @@ const About = () => {
             <div className="detail-item">
               <span className="detail-label">Education:</span>
               <span className="detail-value">
-                      Informatics Institute of Technology affiliated with University of Westminster (2023-2027)
+                Informatics Institute of Technology affiliated with University of Westminster (2023-2027)
                 <br />
                 Richmond College (2009-2022)
-                
               </span>
             </div>
             <div className="detail-item">
