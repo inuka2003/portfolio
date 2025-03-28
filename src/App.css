@@ -252,9 +252,9 @@ section {
 /* About.css */
 
 .profile-image {
-  width: 150px;  
-  height: 150px; 
-  border: 5px solid #000; 
+  width: 300px;  
+  height: 300px; 
+  border: 2px solid #ffffff; 
   object-fit: cover; 
 }
 
