@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.af7dd05d.css",
-    "main.js": "/portfolio/static/js/main.3c06ccec.js",
-    "static/media/inuka.jpg": "/portfolio/static/media/inuka.dcbdabd5682babb71f83.jpg",
+    "main.css": "/portfolio/static/css/main.e6e74b5f.css",
+    "main.js": "/portfolio/static/js/main.22e11d54.js",
+    "static/media/analys.jpg": "/portfolio/static/media/analys.fa7b9d0e37e023596805.jpg",
+    "static/media/Inuka img.jpeg": "/portfolio/static/media/Inuka img.0aedc9c4eeff64aff270.jpeg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.3228e1ee89f6fef4926f.jpg",
+    "static/media/crop.png": "/portfolio/static/media/crop.dfa4ea93400168d70843.png",
+    "static/media/ecommerce.webp": "/portfolio/static/media/ecommerce.16d5dfbfe0d7b5ad08a5.webp",
+    "static/media/ticket.webp": "/portfolio/static/media/ticket.9ba1c2735b2aca634e6d.webp",
+    "static/media/flight.webp": "/portfolio/static/media/flight.69394ec811c843197517.webp",
+    "static/media/todo.webp": "/portfolio/static/media/todo.dc769c0ed777abd6e122.webp",
     "index.html": "/portfolio/index.html",
-    "main.af7dd05d.css.map": "/portfolio/static/css/main.af7dd05d.css.map",
-    "main.3c06ccec.js.map": "/portfolio/static/js/main.3c06ccec.js.map"
+    "main.e6e74b5f.css.map": "/portfolio/static/css/main.e6e74b5f.css.map",
+    "main.22e11d54.js.map": "/portfolio/static/js/main.22e11d54.js.map"
   },
   "entrypoints": [
-    "static/css/main.af7dd05d.css",
-    "static/js/main.3c06ccec.js"
+    "static/css/main.e6e74b5f.css",
+    "static/js/main.22e11d54.js"
   ]
 }
